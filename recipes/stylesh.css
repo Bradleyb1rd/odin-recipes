@@ -1,5 +1,5 @@
 #ttl, h1, h3 {
-    color: red;
+    color: rgb(70, 65, 70);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: auto ;
     text-align: center;
@@ -16,21 +16,27 @@ h1, p{
 }
  #csrecp, h4, li{
      
-     text-align: justify;
+     text-align: center;
 }   
-#csrecp, h4{
-    color: saddlebrown;
-    font-family: monospace;
+#csrecp, * {
+    color: rgb(70, 65, 70);
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#csrecp, li {
+ li {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #ttl, p{
-    color: white;
+    color: rgb(73, 40, 73);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 html {
     background-color: black;
+}
+#csrep, .oc {
+    color: darkgrey;
 }
